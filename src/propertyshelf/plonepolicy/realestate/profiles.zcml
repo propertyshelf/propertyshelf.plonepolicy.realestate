@@ -1,0 +1,16 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="propertyshelf.plonepolicy.realestate">
+
+  <!-- GenericSetup Profiles. -->
+  <!-- ====================== -->
+  <genericsetup:registerProfile
+      description="Site Policy for Propertyshelf Real Estate Plone Websites."
+      directory="profiles/default"
+      name="default"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      title="propertyshelf.plonepolicy.realestate"
+      />
+
+</configure>

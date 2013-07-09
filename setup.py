@@ -9,6 +9,8 @@ long_description = open("README.rst").read() + "\n" + open("CHANGES.rst").read()
 
 install_requires = [
     'setuptools',
+    'plone.mls.listing',
+    'propertyshelf.plonepolicy.base',
 ]
 
 setup(

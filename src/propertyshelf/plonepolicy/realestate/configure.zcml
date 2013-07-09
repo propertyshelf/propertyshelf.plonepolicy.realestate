@@ -1,0 +1,11 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    i18n_domain="propertyshelf.plonepolicy.realestate">
+
+  <!-- Include package dependencies. -->
+  <!-- ============================= -->
+  <includeDependencies package="." />
+  <include file="profiles.zcml" />
+
+</configure>
